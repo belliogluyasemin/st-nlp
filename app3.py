@@ -209,7 +209,7 @@ if st.sidebar.button("Submit"):
     st.pyplot(fig)
 
     st.header("SHAP Local Waterfall Plot - Positive")
-        st.markdown("""
+    st.markdown("""
     SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model.
     """)
     st.markdown("""
