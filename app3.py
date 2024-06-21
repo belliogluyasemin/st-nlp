@@ -39,8 +39,8 @@ st.set_page_config(
 # Sidebar inputs
 st.sidebar.markdown("**Enter User Review & Other Information**")
 input_data = {
-    'text_review': [st.sidebar.text_area("User Review:", value="happy sock money waste buy wear tie stay foot well")],
-    'title_product': [st.sidebar.text_area("Product Title:", value="month pair woman truly show socks black black size")],
+    'text_review': [st.sidebar.text_area("User Review:", value="Crappy socks. Money wasted. Bought to wear with my tieks. Don’t stay on feet well.")],
+    'title_product': [st.sidebar.text_area("Product Title:", value="VERO MONTE 4 Pairs Womens TRULY No Show Socks (Black, 7.5-9), Black, Size 7.5")],
     'rating_number': [st.sidebar.number_input("Rating Count:", value=58, step=1)],
 }
 input_df = pd.DataFrame(input_data)
