@@ -1,8 +1,6 @@
 
-huggingface-hub==0.23.3
 imbalanced-learn==0.12.3
 imblearn==0.0
-
 loging==0.0.1
 markdown-it-py==3.0.0
 matplotlib==3.9.0
@@ -12,9 +10,7 @@ numpy==1.26.4
 pandas==2.2.2
 patsy==0.5.6
 pymongo==4.7.3
-
 regex==2024.5.15
-
 scikit-learn==1.5.0
 scipy==1.13.1
 seaborn==0.13.2
@@ -24,11 +20,8 @@ streamlit==1.35.0
 sympy==1.12
 textblob==0.18.0.post0
 tokenizers==0.19.1
-
+joblib==1.4.2
 torch==2.3.1+cu118
-torchaudio==2.3.1+cu118
-torchvision==0.18.1+cu118
-
 transformers==4.41.2
 wordcloud==1.9.3
 xgboost==2.0.3
