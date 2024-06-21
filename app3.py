@@ -24,11 +24,11 @@ from wordcloud import WordCloud
 import xgboost as xgb
 
 # Ensure necessary NLTK data packages are downloaded
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('omw-1.4')
+import nltk
+nltk.download('punkt', download_dir='./nltk_data')
+nltk.download('stopwords', download_dir='./nltk_data')
+nltk.download('wordnet', download_dir='./nltk_data')
+nltk.download('averaged_perceptron_tagger', download_dir='./nltk_data')
 
 st.set_page_config(
     page_title="AWS Review Sentiment",
