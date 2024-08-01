@@ -55,11 +55,11 @@ The main goal of this project is to analyze customer reviews from the Amazon Fas
 - Oversampling methods such as SMOTE can be used to handle data imbalance during model training.
 
 ### Vectorizer
-- **TFIDF Tokenizer**: Applied with parameters:
-  - `stop_words='english'`
-  - `min_df=0.008`
-  - `ngram_range=(1,3)`
-  - `token_pattern="\\b[a-z][a-z][a-z]+\\b"`
+- **TFIDF Tokenizer**: Applied with the following parameters:
+  - `stop_words='english'`: Automatically remove common English stop words (e.g., "and", "the", "is").
+  - `min_df=0.008`: A term must appear in at least 0.8% of the documents to be considered.
+  - `ngram_range=(1,3)`: Create unigrams (single words), bigrams (two-word combinations), and trigrams (three-word combinations).
+  - `token_pattern="\\b[a-z][a-z][a-z]+\\b"`: Select words that are at least three letters long. This regex pattern captures words with three or more lowercase letters.
 
 ### Feature Engineering
 - **Topic Modeling**: Product titles are classified into three different topics using topic modeling.
@@ -91,4 +91,3 @@ The model is deployed using a Streamlit web application, which can be accessed [
 To run the Streamlit app locally:
 ```sh
 streamlit run app.py
-
