@@ -89,4 +89,4 @@ The model is deployed using a Streamlit web application, which can be accessed [
 
 To run the Streamlit app locally:
 ```sh
-streamlit run app.py
+streamlit run app3.py
