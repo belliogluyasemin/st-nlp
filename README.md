@@ -13,8 +13,7 @@ This repository contains a project for sentiment analysis on Amazon Fashion cust
 - [Model Evaluation](#model-evaluation)
 - [Streamlit Application](#streamlit-application)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Overview
 
