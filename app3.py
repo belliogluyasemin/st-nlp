@@ -49,7 +49,7 @@ input_df = pd.DataFrame(input_data)
 st.markdown("""
     <h1 style='color: #876C6C;'>User Sentiment Analysis For AWS Fashion Customer</h1>
     """, unsafe_allow_html=True)
-st.markdown("Click The Submit Button for Model Result's")
+st.markdown("Click The Submit Button for Displaying The Model Result's")
 
 st.markdown("""
     <h2 style='color: #1b8bb4;'>About The Models</h2>
